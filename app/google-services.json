@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "975272637480",
+    "project_id": "prime-junk",
+    "storage_bucket": "prime-junk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975272637480:android:ecbcc1a1c519021152b11d",
+        "android_client_info": {
+          "package_name": "com.example.primejunk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975272637480-8n0dm0n38s6je9a6ak3kvtpet022c4ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2EKZk7Y3D1y2MbPT1Sw5hx78dIGBfGhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975272637480-8n0dm0n38s6je9a6ak3kvtpet022c4ri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

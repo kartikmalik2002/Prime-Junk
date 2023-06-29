@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/top_nav_view">
+
+    <item android:id="@+id/profile"
+    android:icon="@drawable/person"
+    android:title="@string/profile"/>
+    <item android:id="@+id/redeem"
+        android:icon="@drawable/redeem"
+        android:title="@string/redeem_coins"/>
+    <item android:id="@+id/history"
+        android:icon="@drawable/history"
+
+        android:title="@string/history"/>
+    <item android:id="@+id/earn_coins"
+        android:icon="@drawable/coin"
+        android:title="@string/earn_coins"/>
+
+    </group>
+    <group android:id="@+id/bottom_nav_view">
+        <item android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="@string/log_out"/>
+    </group>
+
+</menu>

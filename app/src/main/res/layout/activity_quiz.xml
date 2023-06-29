@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz"
+    android:background="@drawable/quiz_bg">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:text="Quiz"
+        android:layout_gravity="center"
+        android:textStyle=""
+        android:textColor="#03514A"
+        android:layout_marginTop="90dp"
+        />
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="150dp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        app:cardCornerRadius="5dp"-->
+    <!--        >-->
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            >-->
+    <EditText
+        android:layout_width="200dp"
+        android:id="@+id/et_name"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name"
+        android:layout_marginTop="150dp"
+        android:textColor="#03514A"
+
+        android:textColorHint="#605B5B"
+        android:layout_gravity="center"
+        android:inputType="text"
+        />
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/btn_start"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="@string/start"
+        android:backgroundTint="@color/orange"
+
+
+        />
+
+
+</LinearLayout>
